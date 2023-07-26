@@ -1,0 +1,73 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.bg-image {
+  /* The image used */
+  background-image: url("mango-leaf.jpg");
+  
+  /* Add the blur effect */
+  filter: blur(8px);
+  -webkit-filter: blur(8px);
+  
+  /* Full height */
+  height: 100%; 
+  
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* Position text in the middle of the page/image */
+.bg-text {
+  background-image: url("image4.jpg");
+  background-repeat: no-repeat;
+  background-size: 1200px 500px;
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 90%;
+  padding: 20px;
+  text-align: center;
+  height: 75%;
+}
+.nav1{
+                
+                font-size:20px;
+                padding:0px;
+                float:right;
+            }
+.a1{
+                color: black;
+                color:white(156, 147, 147);
+                float:right;
+                padding:10px;
+
+            }
+            #a2{
+                background-color:white;
+                color:red;
+                float:left;
+                padding:10px; 
+                margin-left: -720px;
+                font-size:30px;
+                margin-top: -5px;
+                position:fixed;
+            }
+            .a1:hover{
+              font-size:25px;
+              text-shadow: 2px 2px 5px red;
+              
+            }
